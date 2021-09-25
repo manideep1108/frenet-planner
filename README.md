@@ -2,7 +2,7 @@
 
 Generation of Local Path using Frenet Frame on a Global Path using Spline Interpolation of Waypoints given.
 
-## Requirments
+## Requirements
 
 ```bash
 pip install numpy
