@@ -25,7 +25,7 @@ Cubic Spline Transformation is used to Generate Waypoints for a Global Path.
 python3 spline.py
 ```
 
-![Spline](/assets/spline.png)
+<img src="assets/spline.png" alt="spline" width="600"/>
 
 ### Detection using OpenCV
 
@@ -35,7 +35,7 @@ OpenCV functionalities of contour detection are used to find the position of Ego
 python3 detection.py
 ```
 
-![Detection](/assets/detection.png)
+<img src="assets/detection.png" alt="detection" width="600"/>
 
 ### Generation of a Frenet Path
 
@@ -47,6 +47,16 @@ python3 planner.py
 
 <img src="assets/planning.png" alt="planning" width="600"/>
 <img src="assets/frenet.png" alt="frenet" width="600"/>
+
+### Simulation
+
+Simulation on the Given Image: Ego vehicle moving, escaping from obstacles, running on calculated frenet paths and eventually stopping at destination.
+
+```bash
+python3 simulation.py
+```
+
+![Simulation](assets/sim.gif)
 
 ## Refrences
 
