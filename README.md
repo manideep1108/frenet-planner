@@ -37,6 +37,17 @@ python3 detection.py
 
 ![Detection](/assets/detection.png)
 
+### Generation of a Frenet Path
+
+Using Frenet frame method, here we generate the Frenet trajectories along our global path which we have determined earlier.
+
+```bash
+python3 planner.py
+```
+
+<img src="assets/planning.png" alt="planning" width="600"/>
+<img src="assets/frenet.png" alt="frenet" width="600"/>
+
 ## Refrences
 
 Optimal Trajectory Generation for Dynamic Street Scenarios in a Frenet Frame: [Link](https://www.researchgate.net/publication/224156269_Optimal_Trajectory_Generation_for_Dynamic_Street_Scenarios_in_a_Frenet_Frame)
